@@ -29,7 +29,7 @@ third_test_score = int(input('Enter third test score: '))
 # variable to hold average test score out of all 3 scores using a constant from constants file
 average_grade = (first_test_score + second_test_score + third_test_score) / constants.NUMBER_OF_TESTS
 
-# prints formatted results
+# prints formatted results as a string
 print(f'{last_name.capitalize()}, {first_name.capitalize()} Age: {age} Average Grade: {average_grade: 5.2f}')
 
 """"
